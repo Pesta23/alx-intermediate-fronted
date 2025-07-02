@@ -1,4 +1,4 @@
-1-index.html file
+1- index.html file
 <!DOCTYPE html>
 <html lang="en">
 <head>
