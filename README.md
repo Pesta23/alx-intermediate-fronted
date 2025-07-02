@@ -1,9 +1,13 @@
-0-index.html file
+1-index.html file
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>MY FIRST HTML PAGE</title>
+  <meta name="description"content="A blog post about semantic HTML and accessibility practises"/>
+  <meta name="keywords" content ="HTML, Semantic, Accessibility,Blog,SEO"/>
+  <meta name="author" contect""/>
+  <meta name=" viewport" content=" width=device- width, initial-scale=1.0"/>
+  <title>Semantic Html Blog post</title>
 </head>
 <body>
   <header>
