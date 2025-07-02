@@ -17,7 +17,7 @@ o-index.html
   </header>
   <main>
     <article>
-      <h1>Welcome to my wedside</h1>
+      <h1>Welcome to my webside</h1>
       <section>
         <p>This is the content of the artcle. Here you can add  more information about your site.</p>
       </section>
