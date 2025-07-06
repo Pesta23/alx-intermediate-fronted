@@ -1,1 +1,30 @@
 0-index-html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Open Chat</title>
+</head>
+<body>
+    <h1>Welcome to Open Chat</h1>
+    <form id="chat-form">
+        <input type="text" id="message" placeholder="Type your message..." autocomplete="off" />
+        <button type="submit">Send</button>
+    </form>
+    <div id="chat-log"></div>
+    <script>
+        const form = document.getElementById('chat-form');
+        const chatLog = document.getElementById('chat-log');
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const msg = document.getElementById('message').value;
+            if (msg.trim() !== '') {
+                const p = document.createElement('p');
+                p.textContent = msg;
+                chatLog.appendChild(p);
+                document.getElementById('message').value = '';
+            }
+        });
+    </script>
+</body>
+</html>
