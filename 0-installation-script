@@ -1,0 +1,39 @@
+THE STEPS THAT I HAVE USED TO INSTALL SASS ARE AS FOLLOWS
+
+ 1. Install Node.js and npm
+SASS requires Node.js and npm (Node Package Manager).
+
+- Download Node.js from [https://nodejs.org/](https://nodejs.org/)
+- Run the installer and follow the setup instructions.
+- Verify installation:
+  ```bash
+  node -v
+  npm -v
+  ```
+
+ 2.Install SASS via npm
+Open your terminal or command prompt and run:
+```bash
+npm install -g sass
+```
+The `-g` flag installs SASS globally, making it accessible from any directory.
+
+ 3. Verify SASS installation
+Check if SASS is installed correctly:
+bash
+sass --version
+```
+This should display the installed version of SASS.
+
+ 4. Using SASS
+To compile a `.scss` file:
+```bash
+sass input.scss output.css
+```
+Or watch a directory for changes:
+```bash
+sass --watch input.scss:output.css
+```
+
+
+
